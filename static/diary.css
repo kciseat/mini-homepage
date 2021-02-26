@@ -1,0 +1,89 @@
+/** 달력 패널 */
+.monthry-box {
+    font-family: 'NeoDunggeunmo';
+    flex: 0.07;
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 10px;
+    border:#eeeeee 1px solid;
+    background-color: white;
+    text-align: left;
+}
+
+.skyblue {
+    color: rgb(45, 116, 163);
+    margin: 0 10px 0 10px;
+}
+
+.skyblue-2 {
+    color: rgb(45, 116, 163);
+    margin: 0 20px 0 18px;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+/** 다이어리 */
+.diary-scroll {
+    overflow: auto;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    bottom: 10px;
+    margin-top: 4rem;
+    position: absolute;
+}
+
+.diary-box {
+    width: 436px;
+    border:#eeeeee 1px solid;
+    padding: 1.3rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+}
+
+.diary-date {
+    color: rgb(45, 116, 163);
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    font-family: 'NeoDunggeunmo';
+}
+
+.diary-text {
+    font-family: 'KyoboHand';
+    text-align: center;
+    margin: 10px 70px 10px 70px;
+    font-size: 1.15rem;
+    flex: 1;
+    display: flex;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+.secret-diary-button {
+    margin-top: 1rem;
+    background-color:white;
+    color: white;
+    padding: 1rem;
+    border: none;
+    transition: 800ms;
+    cursor: pointer;
+    font-family: 'NeoDunggeunmo';
+}
+
+.secret-diary-button:hover {
+    background-color: rgb(59, 182, 131);
+    color: white;
+}
+
+#secret-box {
+    display: none;
+}

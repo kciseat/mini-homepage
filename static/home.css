@@ -1,0 +1,111 @@
+/**updatednews 패널 */
+.content-updatednews {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    margin: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .first-title {
+    flex: 0.1;
+    font-size: 1.2rem;
+    color:deepskyblue;
+    padding-top: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  /**botton 패널 */
+  .box-content {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+  }
+  .button-list {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .list {
+    flex: 1;
+    font-size: 0.8rem;
+    font-family: 'NanumBarunGothic';
+    display: flex;
+    flex-direction: row;
+    margin: 3px 0 0 3px;
+  }
+  
+  .list-album {
+    display: table-cell;
+    border-radius: 4px;
+    background-color: crimson;
+    color: white;
+    font-family: 'NeoDunggeunmo';
+    font-size: 0.8rem;
+    padding: 3px;
+    margin-right: 0.3rem;
+  }
+  
+  .list-table {
+    display: table-cell;
+    border-radius: 4px;
+    background-color: royalblue;
+    color: white;
+    font-family: 'NeoDunggeunmo';
+    font-size: 0.8rem;
+    padding: 3px;
+    margin-right: 0.3rem;
+  }
+  
+  /**category 패널 */
+  .category-list {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+  
+  .list2 {
+    flex: 0.23;
+    font-size: 0.8rem;
+    font-family: 'NanumBarunGothic';
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed gray;
+  }
+  
+  .list-category {
+    font-family: 'NeoDunggeunmo';
+    font-size: 0.8rem;
+    color:dodgerblue;
+    margin: 1px 0 0 10px;
+  }
+  
+  /**miniroom 패널 */
+  .content-miniroom {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    margin: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .second-title {
+    flex: 0.1;
+    font-size: 1.2rem;
+    color:deepskyblue;
+    padding-top: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .miniroom-photo {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {width: 76%;}

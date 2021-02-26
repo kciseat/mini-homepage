@@ -1,0 +1,44 @@
+.visitor-container {
+    overflow: auto;
+    top: 10px;
+    left: 20px;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+
+.visitor-title {
+    background-color: #eeeeee;
+    font-family: 'NeoDunggeunmo';
+    flex: 0.2;
+    padding: 5px;
+    margin: 10px 5px 10px 0;
+}
+
+.visitor-box {
+    width: 435px;
+    padding-top: 0.8rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.visitor-image {
+    flex: 0 0 10rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.visitor-image > img {width: 100%;}
+
+.visitor-text {
+    font-family: 'KyoboHand';
+    margin-left: 1rem;
+    padding: 30px;
+    font-size: 1.15rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
